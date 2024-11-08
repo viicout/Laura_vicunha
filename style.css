@@ -1,0 +1,178 @@
+@import url(https://fonts.google.com/specimen/Nerko+One);
+@import url(https://fonts.google.com/specimen/Krona+One?query=krona);
+@import url(https://fonts.google.com/specimen/Montserrat?query=mont);
+@import url(/css/header.css);
+@import url(/css/contato.css);
+@import url(/css/footer.css);
+@import url(/css/pastoral.css);
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --vermelho: #eb0000;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 15.49%, #3d7ba8 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-weight: lighter;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.background-azul {
+    background: var(--azul-degrade);
+    color: var(--branco);
+}
+
+.azul-degrade {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-video {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-section {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-video {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: center;
+}
+
+/*BOTÃO*/
+.text-bolsas {
+    text-decoration: none;
+    color: white;
+}
+
+.container-carrossel {
+    margin-top: 8.5em;
+}
+
+
+/* COLEGIO LAURA VICUNHA - GALERIA - NOSSOS ESPAÇOS*/
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-header {
+    padding-bottom: 30px;
+}
+
+.section-header h1 {
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.item-text {
+    padding-left: 15px;
+}
+
+.about-img {
+    padding-right: 15px;
+}
+
+.item-text h4 {
+    margin-bottom: 30px;
+}
+
+
+.banner-1 {
+    background-image: url(/img/banner/Design\ sem\ nome.png);
+}
+
+.banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*STATUS*/
+.stats-area {
+    background-image: url(/img/10.png);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+.stats-area:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, transparent);
+    z-index: -1;
+}
+
+.single-stats {
+    color: #fff;
+    text-align: center;
+}
+
+.single-stats i {
+    margin-bottom: 20px;
+}
+
+.single-stats h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.single-stats p {
+    font-family: 'Audiowide', cursive;
+}
+
+/*EQUIPE*/
+.titulo_equipe {
+    color: white;
+}
+
+/*APLICATIVO*/
+.rede-social_titulo {
+    white-space: nowrap;
+}
+

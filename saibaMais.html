@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Colégio Laura Vicunha</title>
+
+    <link rel="shortcut icon" href="./img/Logo-Laura-Vicunha.png" type="image/x-icon" />
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <!--FONTES-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=audiowide" rel="stylesheet">
+    <script src="/transicao-header.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="saibaMais.html">
+</head>
+
+<body>
+    <!--CABECALHO-->
+    <header>
+        <div class="nav-area fixed-top" id="main-header">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid justify-content-lg-end">
+                    <i class="nav__login bi bi-telephone-fill fs-4"></i><a
+                        class="navbar-brand text-primary-emphasis nav__login" href="#">(22) 2722-4988</a>
+                    <i class="nav__login bi bi-geo-alt-fill fs-4"></i><a
+                        class="navbar-brand text-primary-emphasis nav__login" target="_blank"
+                        href="https://www.google.com/maps/place/Col%C3%A9gio+Laura+Vicunha/@-21.7560829,-41.3314771,15z/data=!4m6!3m5!1s0xbdd445e185b8d5:0x52f7ccb7a945087a!8m2!3d-21.7560829!4d-41.3314771!16s%2Fg%2F1tjmfxjp?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">Rua
+                        Benta Pereira 183, Campos dos Goytacazes, Rj</a>
+
+                    <div class="button-margin d-lg-flex p-1">
+                        <button class="btn btn-primary"><a class="text-link__decoration" target="_blank"
+                                href="https://gestao.portalimm.com.br/acropolymodule.dll/C?F=FLogBlogIndex&IdEntidade=72885&IdBlog=314Chave=CHAVE">Portal
+                                Aluno</a></button>
+                        <button class="btn btn-primary"><a class="text-link__decoration" target="_blank"
+                                href="https://gestao.portalimm.com.br/">Portal Professor</a></button>
+                        <button type="button" class="btn btn-danger"><a class="text-link__decoration" target="_blank"
+                                href="https://loja.edebe.com.br/">Edebe</a></button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="./index.html">
+                        <h1><img src="./img/logo/Logo-Laura-Vicunha.webp"></h1>
+                    </a>
+                    <button class="navbar-toggler bg-btn" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false">
+                        <!-- <span class="navbar-toggler-icon"> -->
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <span> <i class="navbar-toggler-icon"></i></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-area">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pastoral.html" target="_blank">Pastoral</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/fotos.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/nossoespaco.html">Nossos espaços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contato.html" target="_blank">Contato</a>
+                            </li>
+
+                            <!--link dowloads para baixar o calendario e a lista de material 2024-->
+
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="">Download</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-titulo">LISTA DE MATERIAIS</li>
+
+                                    <li><a class="menu-dropdown"
+                                            href="https://drive.google.com/file/d/1regBL7-6mJAfdAO4AMA6tuUIiRZSuNb0/view?usp=sharing"
+                                            target="_blank">Educação Infantil de 2024</a></li>
+                                    <li><a class="menu-dropdown"
+                                            href="https://drive.google.com/file/d/17uN6NvbOl9iIpHoPIEtWDcTDgdpjiQvs/view?usp=sharing"
+                                            target="_blank">Fundamental I de 2024</a></li>
+                                    <li><a class="menu-dropdown"
+                                            href="https://drive.google.com/file/d/14Kf6-8XakCe8-KCgoOppHfH98UNz-SFk/view?usp=sharing"
+                                            target="_blank">Fundamental II de 2024</a></li>
+                                    <li><a class="menu-dropdown"
+                                            href="https://drive.google.com/file/d/1-DgB2Wkt7FbICgfrU942OwVtRFtyNfU7/view?usp=sharing"
+                                            target="_blank">Renovação de Matricula de 2025</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./padaria/padaria.html" target="_blank">Padaria</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--BANNER DO NOSSO ESPACO-->
+        <section id="nossosespacos" class="banners banner-1 d-flex flex-column justify-content-center text-center">
+            <div class="banners-titulo py-5">
+                <img src="/img/logo/Logo-Laura-Vicunha.png" alt="Logo laura vicunha">
+            </div>
+        </section>
+        <section>
+
+            <!-- Colégio Laura Vicunha -->
+            <div class="container container-carrossel ">
+                <div class="row">
+                    <div class="col-md12 col-sm-12 col-xs-12 text-center">
+                        <div class="section-header">
+                            <h1 class="font-weight-bold azul-degrade">Colégio Laura Vicunha</h1>
+                            <p>Formando bons cristãos e honestos cidadãos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="about-img wow animated fadeInDown" data-wow-delay="0.2s">
+                            <img src="./img/1.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="item-text">
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Quem somos
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p><strong>O Colégio Laura Vicunha</strong> começou em 1949 a construir a
+                                                sua
+                                                historia junto
+                                                à comunidade
+                                                campista, dedicando-se, de modo especial, à criança e ao adolescente,
+                                                proporcionando-lhes
+                                                uma educação de qualidade embasada no Sistema Preventivo de Dom Bosco
+                                                que é
+                                                a de
+                                                "Formar o
+                                                bom cristão e o honesto cidadão", capaz de influenciar positivamente na
+                                                sociedade.
+                                                <br><br>
+                                                O Colégio é gerido pelas Irmãs Salesianas, também congregação fundada
+                                                por
+                                                Dom
+                                                Bosco, que
+                                                tinha uma grande devoção pela Virgem Maria que, segundo ele, "foi Ela
+                                                quem
+                                                tudo
+                                                fez" e nela
+                                                colocou toda a sua confiança. Além disso, Dom Bosco confiava muito em
+                                                São
+                                                Francisco Sales,
+                                                que pautou sua vida na caridade e doçura. Acreditava que seus passos
+                                                iriam
+                                                guiar
+                                                seu
+                                                trabalho. Por isso, a escolha do termo "Salesiano".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            As Salesianas
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>As Salesianas constituem uma rede mundial de educação,</strong>
+                                            inserida
+                                            nos diversos contextos sociais e culturais. São chamadas a uma missão
+                                            educativa,
+                                            que se fundamenta nos principios evangélicos, expressos no Sistema Educativo
+                                            de
+                                            Dom Bosco e de Madre Mazzarello, que baseia em três principios basicos:
+                                            <br><br>
+                                            Razão, que desperta nos jovens o entusiasmo pelo estudo, pela pesquisa, pela
+                                            busca de convicções, pela construção do conhecimento e pela re-significação
+                                            da
+                                            realidade
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Religião
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Religião, que é a dimensão da fé, </strong> da relação com o
+                                            transcendente, que oferece ao jovem a chave de interpretação do mundo e de
+                                            si
+                                            mesmo e que dá o significado ultimo da existência, como fonte de equilibrio
+                                            e
+                                            sentido para a vida. <br> <br>
+                                            A "Amorevoleza" (amor), que é a dimensão dos sentimentos, uma prática
+                                            educativa
+                                            orientada para as relações humano-éticas: "Educar é questão de coração",
+                                            dizia
+                                            Dom Bosco. Fazemos parte da Rede Salesiana de Escolas (RSE). E isso
+                                            significa
+                                            interagir junto a mais de cem Escolas Salesianas do Brasil, comprometidas
+                                            com o
+                                            mesmo Projeto Pedagógico, que visa a despertar a valorização da vida, o
+                                            respeito
+                                            pelo meio ambiente, o incentivo ao aprendizado continuo e a convivência
+                                            solidária
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Missão</button>
+
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Educação</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Dimensão Pedagógica</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="metodo-tab" data-bs-toggle="tab"
+                                data-bs-target="#metodo-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Metodologia</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="sistema-tab" data-bs-toggle="tab"
+                                data-bs-target="#sistema-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Sistema Preventivo</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <p><br>Desencadear um processo de EDUCAR-SE, tendo em vista o seu harmônico e integral
+                                crescimento,
+                                sendo sujeito protagonista do desenvolvimento de todas as suas potencialidades e
+                                dimensões
+                                do ser, elaborando a sua própria identidade, construindo sua autonomia intelectual,
+                                social e
+                                afetiva, exercendo a sua cidadania no engajamento nos diversos setores socio-eclesiais a
+                                serviço da vida concretizando assim, o ideal de "bons cristãos e honestos cidadãos".
+                                <br><br>
+                                Inspira seu trabalho educativo nos princípios estruturados a partir da LDB 9394/96:
+                                cidadania, participação, democracia, liberdade, solidariedade, vinculado com o trabalho,
+                                práticas sociais e o crescimento da experiencia extraclasse, tendo por fim, a formação
+                                de
+                                cidadãos. Livres para aprender, ensinar, pesquisar e divulgar a cultura, o pensamento, a
+                                arte e o saber. Capazes de compreender, assumir criticamente a realidade social,
+                                conscientes
+                                de seus direitos, deveres e responsabilidades. <br><br>
+                                Que respeitem a liberdade e sejam contrários a toda a forma de exploração, opressão,
+                                desrespeito a pessoa, a natureza e ao patrimônio cultural da humanidade. Capazes de
+                                respeitar e conviver com diferentes condições filosóficas, religiosas, rejeitando
+                                qualquer
+                                tratamento desigual por motivo de preconceito, classe ou racial. <br><br>
+
+                                Baseia-se conforme os princípios da Constituição Nacional, dos Princípios Cristãos e da
+                                Pedagogia de Dom Bosco.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0"><br>O Ensino Fundamental, com duração de nove anos letivos, tem por finalidade
+                            a
+                            formação do cidadão mediante: "o desenvolvimento da capacidade de aprender, tendo como meios
+                            básicos o pleno domínio da leitura, da escrita e da lógica, do raciocínio, da pesquisa e da
+                            interpretação de dados; a compreensão do meio ambiente natural e social, do sistema
+                            político, da
+                            ciência aplicada, da arte e dos valores em que se fundamenta a sociedade". <br><br>
+
+                            A primeira fase do Ensino Fundamental compreende as turmas de 1º ao 5º ano, e o segundo
+                            segmento, do 6º ao 9º ano. Em todas as fases aplica-se a pedagogia salesiana, onde tudo
+                            converge
+                            para formar a pessoa na sua totalidade, como ser humano, seguindo os três pilares: razão,
+                            religiosidade e afetividade (amorevolezza)<br><br>
+
+                            Razão, no sentido de criar e garantir, num relacionamento dialógico, a autonomia intelectual
+                            do
+                            aluno, que conhece e assume as 'razoes' de tudo aquilo que estuda e vivência, inclusive de
+                            seus
+                            limites.<br><br>
+
+                            Religiosidade como abertura ao sentido radical da vida e dos valores evangélicos, com
+                            atitude
+                            ecumênica e dialógica<br><br>
+
+                            Afetividade, como clima educativo de confiança, compreensão, alegria e amor, que favorece o
+                            relacionamento educador-educando e estimule o crescimento pessoal, de forma livre e
+                            comprometida
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0"><br>O Colégio Laura Vicunha baseado na LDB e nos Parâmetros Curriculares
+                            Nacionais,
+                            tendo como alicerce a Pedagogia Salesiana, tem como prioridade contribuir para a formação de
+                            alunos críticos, reflexivos, solidários e que saibam respeitar as diferenças culturais,
+                            sociais,
+                            políticas, religiosas, enfim saber respeitar o seu próximo. <br><br>
+
+                            A busca por uma prática educativa reflexiva, emancipatória e transformadora, tendo como meio
+                            a
+                            interdisciplinaridade para que possamos contribuir para uma aprendizagem significativa e
+                            colaborativa.<br><br>
+
+                            Para isso, o Colégio oferece a formação fundamental objetivando o educando e dando-lhe
+                            condições
+                            de aprendizagem para desenvolver habilidades comuns como:<br><br>
+
+                            Formação do leitor do mundo (letramento).<br><br>
+
+                            Formação do escritor para o mundo.<br><br>
+
+                            Domínio do cálculo e do raciocínio logico.<br><br>
+
+                            Aprender a aprender.<br><br>
+
+                            Formação de atitudes e valores.<br><br>
+
+                            Autoestima, confiança, ética e inter-relacionamento com o próximo.<br><br>
+
+                            Criticidade da realidade e autenticidade na resolução de situações problemas.</div>
+                        <div class="tab-pane fade" id="metodo-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0"><br>Trabalhar os conteúdos mínimos de acordo com o material da RSE que se
+                            fundamenta de acordo com os PCNs. Além dos conceitos específicos, constituem conteúdos
+                            mínimos
+                            do currículo a aprendizagem e o exercício de habilidades comuns a todas as áreas que são:
+                            leitura e interpretação de diferentes linguagens; escrita; expressão oral; análise e
+                            interpretação de fatos e ideias e mobilização de informações, conceitos e procedimentos em
+                            situações diversas.<br><br>
+                            A adaptação ao material da RSE é indispensável para o sucesso do processo
+                            ensino-aprendizagem
+                            que se dá por meio das múltiplas relações que o educando estabelece entre os diferentes
+                            significados desse mesmo conceito. Assim, a compreensão do que é apreendido e sua
+                            estabilização
+                            como aprendizagem significativa dependem da qualidade e quantidade dessas relações.
+                        </div>
+
+                        <div class="tab-pane fade" id="sistema-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0"><br>Nossa escola faz parte de uma grande família nascida da experiência de
+                            resposta
+                            de
+                            fé de Dom Bosco e Madre Mazzarello ao chamado de Deus para a educação e salvação dos jovens,
+                            família
+                            Salesiana. <br> <br>
+                            Ela se propõe a educar, desenvolvendo o sujeito como pessoa que se relaciona consigo
+                            mesmo, com o outro, com o mundo e com Deus.<br> <br>
+
+                            Acredita numa educação comprometida com a liberdade, justiça e dignidade que respeita as
+                            diferenças
+                            individuais e ao mesmo tempo cultiva a consciência coletiva, o bem comum, a cidadania: "Bons
+                            cristãos e honestos cidadãos", que valoriza a pessoa com suas potencialidades. D. Bosco
+                            acreditava
+                            que em todo o jovem havia sempre um ponto acessível ao bem, guiado por critérios éticos, a
+                            serviço
+                            da vida e da esperança. Uma educação, que privilegie o aprender a ser, o aprender a aprender
+                            e o
+                            aprender a conviver.<br> <br>
+                            O jeito de Dom Bosco educar chama-se Sistema Preventivo e nossa escola procura vivenciá-lo,
+                            por
+                            vocação e missão. Este sistema se fundamenta em três eixos: Razão - Religião - Amorevolezza.
+                            <br> <br>
+                            Razão: Entendemos por razão o despertar para a consciência crítica, a busca de fundamentos e
+                            razões
+                            da própria existência, o diálogo, a participação e corresponsabilidade. É a busca da verdade
+                            de
+                            si
+                            mesmo, do outro, do mundo (ciência) e Deus.
+                            <br> <br>
+                            Religião: A pessoa busca o sentido da vida e a alegria de viver. Através de uma convivência
+                            integradora, experienciando a unidade pessoal, a mística, orientação com base no Evangelho,
+                            educadores e educandos abrem-se aos valores do humano e do transcendente, buscando construir
+                            o
+                            próprio projeto de vida, enquanto se inserem na comunidade de fé
+                            <br> <br>
+                            Amorevolleza: Quem percebe que é amado, torna-se também capaz de sair de si e amar os
+                            outros. A
+                            presença salesiana se identifica pelas atitudes de acolhida, bondade, alegria e
+                            fraternidade,
+                            que
+                            criam um clima de família. A afeição demonstrada é o "tempero" de tudo. Através de uma
+                            convivência
+                            aproximada e prazerosa, educadores e educandos experienciam a criatividade, a subjetividade,
+                            o
+                            emocional, o afetivo, a comunicabilidade, o diálogo, a amizade, a alegria de viver.
+                            <br> <br>
+                            Estes princípios que indicam uma visão harmônica da pessoa dotada de razão, afetividade,
+                            vontade,
+                            abertura ao transcendente. Nesse sentido, o sistema preventivo é um exemplo de humanismo
+                            pedagógico
+                            cristão, onde a centralidade da fé está indissoluvelmente unida à apreciação dos valores
+                            presentes
+                            na história.
+                            <br> <br>
+                            Em nível metodológico, o nosso projeto educativo tem em mira orientar os jovens para a
+                            escolha
+                            do
+                            bem e guiar a sua riqueza afetiva para o dom de si, ajudando a superar gradualmente o
+                            egocentrismo
+                            da adolescência, e acompanhando-os para o encontro transformador com Deus, em Cristo. O
+                            sistema
+                            preventivo, original síntese de educação e evangelização, orienta os jovens para que se
+                            tornem
+                            "bons
+                            cristãos e honestos cidadãos".
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            </div>
+            <!--BANNER DE STATUS-->
+            <div class="stats-area section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="single-stats">
+
+                                <div class="stats">
+                                    <div>
+                                        <i class="fa-solid fa-award"></i>
+                                        <h2><span class="sta" data-max="110">000</span></h2>
+                                        <p>ESCOLAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-stats">
+
+                                <div class="stats">
+                                    <div>
+                                        <i class="fa-solid fa-award"></i>
+                                        <h2><span class="sta" data-max="85">000</span> MIL</h2>
+                                        <p>ALUNOS</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-stats">
+                                <div class="stats">
+                                    <div>
+                                        <i class="fa-solid fa-award"></i>
+                                        <h2><span class="sta" data-max="5">000</span> MIL</h2>
+                                        <p>PROFESSORES</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-stats">
+                                <h2>RSB</h2>
+                                <p>Seja bem-vindo à maior rede de escolas católicas das Américas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <!--BANNER DE RENOVAÇÃO DE MATRICULAS-->
+                <div class="text-center py-5" id="layout2">
+                    <h2 class="fw-bold text-md-center azul-degrade">Matriculas Abertas 2025</h2>
+                    <p class="text-center">Garanta sua vaga e venha fazer parte da nossa jornada de aprendizado.</p>
+    
+                    <div class="col-lg-6 mx-auto align-items-justify">
+                        <div class="d-grid d-sm-flex justify-content-sm-center">
+                            <button type="button" class="btn btn-primary"><a class="text-bolsas"
+                                    href="./contato.html">Agende
+                                    uma visita</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--BANNER DE APLICATIVO-->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col align-items-center p-3">
+                    <h2 class="rede-social_titulo fw-bold azul-degrade">Nosso Aplicativo oficial</h2>
+                    <a class="p-5" href="https://apps.apple.com/br/app/col%C3%A9gio-laura-vicunha/id6447487411"
+                        target="_blank"><img class="img-aplicativo" src="/img/icones/icone_app_store.svg" alt=""></a>
+                    <a class="p-5"
+                        href="https://play.google.com/store/apps/details?id=br.com.polygonus.mobile.clv&pli=1"
+                        target="_blank"><img class="img-aplicativo" src="/img/icones/icone_google_play.svg" alt=""></a>
+                </div>
+
+                <div class="col align-items-center p-3">
+                    <h2 class="rede-social_titulo fw-bold azul-degrade">Redes sociais do Laura Vicunha</h2>
+                    <a class="p-5" href="https://www.facebook.com/lauravicunhacamposrj/" target="_blank"><img
+                            class="img-social" src="/img/icones/facebook.svg" alt=""></a>
+                    <a class="p-5" href="https://www.instagram.com/lauravicunhacamposrj/" target="_blank"><img
+                            class="img-social" src="/img/icones/instagram.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="background-azul">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col pt-5">
+                    <h5>ACESSE TAMBÉM</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="https://archive.cgfmanet.org/"
+                                class="nav-link p-0 text-body-secondary">Filhas de Maria Auxiliadora</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.rsb.org.br/"
+                                class="nav-link p-0 text-body-secondary">RSB</a></li>
+                        <li class="nav-item mb-2"><a href="https://csf.rsb.org.br/"
+                                class="nav-link p-0 text-body-secondary">Centro Salesiano de Formação</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.boletimsalesiano.org.br/"
+                                class="nav-link p-0 text-body-secondary">Boletim Salesiano</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-5">
+                    <h5>CONTATOS</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Recepção<a href="https://wa.me/552230155805"
+                                class="nav-link p-0 text-body-secondary">(22)
+                                2722-4988 <br> (22) 3015-5805</a></li>
+                        <li class="nav-item mb-2">Tesouraria<a href="https://wa.me/5522997973119"
+                                class="nav-link p-0 text-body-secondary">(22)
+                                99893-2422</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-mail:
+                                secretaria@lauravicunha.com.br</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-5">
+                    <h4>NOSSA LOCALIZAÇÃO</h4>
+                    <ul class="link-area widget list-inline">
+                        <iframe class="maps" width="auto" height="auto"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.624515599414!2d-41.334052024696135!3d-21.756077897761855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdd445e185b8d5%3A0x52f7ccb7a945087a!2sCol%C3%A9gio%20Laura%20Vicunha!5e0!3m2!1spt-BR!2sbr!4v1689728560842!5m2!1spt-BR!2sbr"
+                            target="_blank" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <div class="copyright-area text-center">
+                        <p>Colégio Laura Vicunha &copy; 2024 V.2.3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <div class="whats">
+        <a href="https://wa.me/5522992513584" target="_blank">
+            <img src="what-removebg-preview.png" width="150px" alt=""></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloundflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="./script.js"></script>
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

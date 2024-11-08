@@ -1,0 +1,264 @@
+/* footer area*/
+
+#footer-area {
+    padding: 50px 0 0 0;
+    background: #2d2de6;
+    color: #fff;
+}
+
+.footer-social {
+    font-size: 50px;
+    color:#fff;
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+.single-footer h3 {
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fafafa;
+    font-family: 'Merienda';
+}
+
+.link-area li {
+    padding: 5px 5px 5px 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.link-area a:hover {
+    color: #f7f711;
+}
+
+
+.link-area li a {
+    text-transform: capitalize;
+    color: #ddd;
+    font-family: 'Merienda';
+    text-decoration: none;
+}
+
+.link-area li a i {
+    margin-right: 10px;
+    color: #ddd;
+}
+
+.link-area {
+    padding: 0;
+}
+
+.single-footer p {
+    font-family: 'Merienda';
+}
+
+.footer-social p {
+    font-family: 'Merienda';
+}
+
+.footer-social li a {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    background: #2f3dd7;
+}
+
+.footer-social li a i {
+    color: #fff;
+    padding: 8px;
+}
+
+.widget li {
+    float: left;
+    width: 50%;
+}
+
+.widget li a img {
+    margin-bottom: -10px;
+    width: 100%;
+    height: 70px;
+}
+
+.copyright-area p {
+    font-weight: 200;
+    color: #fafafa;
+}
+
+.tab-pane img {
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+/*responsivo css*/
+@media screen and (min-width:360px) and (max-width:399px) {
+    
+
+    .link-area{
+        margin-left: 50px;
+    }
+
+    .footer-social li {
+        margin-left: -50px;
+        margin-right: -5px;
+        padding-left: 50px;
+    }
+
+
+    .maps {
+        width: 280px;
+        margin-left: -30px;
+    }
+
+    .whats {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:575px) {
+
+    .footer-social li {
+        padding-left: 35px;
+        margin-left: -20px;
+    }
+
+        /*footer*/
+     .single-footer  {
+        margin-left: 20px;
+     }
+     .footer-social {
+        margin-left: -50px;
+        margin-right: -40px;
+     }
+     .single-footer2 {
+        margin-top: 150px;
+     }
+
+       .maps {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .whats {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:589px) {
+
+    
+
+    .footer-social {
+        margin-left: -130px;
+    }
+
+    .footer-social li {
+        margin-left: -5px;
+        margin-right: -75px;
+        padding-left: 70px;
+    }
+
+    .maps {
+        width: 270px;
+    }
+    .whats {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width:590px) and (max-width:629px) {
+
+    .footer-social {
+        margin-left: -150px;
+    }
+
+    .footer-social li {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: -80px;
+        padding-left: 40px;
+    }
+
+    .maps {
+        width: 270px;
+    }
+
+    /*whatsap*/
+    .whats {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:630px) and (max-width:767px) {
+     
+    /*footer*/
+     .single-footer  {
+        margin-left: 0px;
+     }
+     .footer-social {
+        margin-left: 20px;
+        margin-right: -50px;
+     }
+     .single-footer2 {
+        margin-top: 150px;
+     }
+     .footer-social {
+        margin-left: -100px;
+        padding-left: -140px;
+     }
+
+    .maps {
+        margin-top: 25px;
+        width: 280px;
+    }  
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+   /*footer*/
+ 
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+
+
+    .maps {
+        margin-left: -10px;
+        width: 240px;
+        height: 200px;
+    }
+
+    /*whatsap*/
+    .whats {
+        width: 100px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
+
+    .maps {
+        margin-left: -10px;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1629px) {
+
+    .maps {
+        margin-left: -20px;
+        width: 300px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <title>Padaria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body data-bs-theme="light">
+
+  <header>
+    <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/padaria/images/logo.png" width="100px"
+            alt="Logo padaria laura vicunha">Padaria Laura Vicunha</a>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.instagram.com/padarialaura/">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://wa.me/message/RTV4JCG2QO2AJ1">WhatsApp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                    <label class="form-check-label" for="modo-noturno">Modo noturno</label>
+                  </div>
+                </a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banners banner-1 d-flex flex-column justify-content-center text-center">
+      <div class="banners-titulo bg-body-secondary py-5">
+        <h2 class="fw-bold">Sua pausa para desfrutar a vida.</h2>
+        <p>Boas-vindas a Padaria Laura Vicunha! Um ambiente aconchegante e acolhedor para apreciar um bom café.</p>
+      </div>
+    </section>
+
+    <section class="py-5">
+
+      <h2 class="fw-bold text-center pb-1">Nossos produtos</h2>
+
+      <div class="row mx-0">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1" style="width: 18rem;">
+            <img src="/padaria/images/produtos/pudim.webp" class="card-img-top" alt="Café pudim.">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Pudim</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem;">
+            <img src="/padaria/images/produtos/bolo.JPG" class="card-img-top" alt="Bolo">
+            <div class="card-body">
+              <h3 class="card-text fw-bold text-center">Bolo</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/bolodechocolate.JPG" class="card-img-top" alt="Bolo de Chocolate">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold text-nowrap">Bolo de Chocolate</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/bombocado.JPG" class="card-img-top" alt="Bombocado">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Bombocado</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/brigadeirao.JPG" class="card-img-top" alt="Brigadeirão">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Brigadeirão</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/esfirra.JPG" class="card-img-top" alt="Esfirra">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Esfirra</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/goibada.JPG" class="card-img-top" alt="Goibada">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Goibada</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/hambuguer.webp" class="card-img-top" alt="Hambúrguer">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Hambúrguer</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/minisalgados.JPG" class="card-img-top" alt="MiniSalgados">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">MiniSalgados</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/mouse.JPG" class="card-img-top" alt="Mouse">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Mouse</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/paodequeijo.JPG" class="card-img-top" alt="Pão de queijo">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Pão de queijo</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/sanduiche.JPG" class="card-img-top" alt="Sanduíche">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Sanduíche</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/sonho.JPG" class="card-img-top" alt="Sonho">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Sonho</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/tortasalgada.JPG" class="card-img-top" alt="Torta Salgada">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Torta Salgada</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <img src="/padaria/images/produtos/tronco.JPG" class="card-img-top" alt="Tronco">
+            <div class="card-body">
+              <h3 class="card-text text-center fw-bold">Tronco</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--<section class="banners banner-3">
+    </section>
+
+    <section class="py-4 container">
+      <div class="row">
+        <div class="col-10 col-xl-8 mx-auto">
+          <div class="border border-2 rounded p-3">
+            <h3 class="fw-bold p-3">Entre em contato!</h3>
+            <form id="contato">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+                <label for="floatingNome">Nome</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                <label for="floatingEmail">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingTelefone" placeholder="Telefone">
+                <label for="floatingTelefone">Telefone</label>
+              </div>
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Preferência de contato:</option>
+                <option value="1">WhatsApp</option>
+                <option value="2">Email</option>
+                <option value="3">Ligação</option>
+              </select>
+              <label for="nivel-satisfacao" class="form-label">Nível de satisfação:</label>
+              <input type="range" class="form-range input-range" id="nivel-satisfacao">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Deseja receber novidades por email?
+                </label>
+              </div>
+              <button type="button" class="btn botao-padrao w-100 fw-bold mt-3 py-3">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>-->
+
+    <footer class="text-center">
+      <section class="container p-4 pb-0 mb-4">
+        <a class="btn" href="https://wa.me/message/RTV4JCG2QO2AJ1"><i class="bi bi-whatsapp"></i></a>
+        <a class="btn" href="https://www.instagram.com/padarialaura/"><i class="bi bi-instagram"></i></a>
+      </section>
+      <div class="p-3">
+        2024 <i class="bi bi-c-circle"></i> Padaria Laura Vicunha
+      </div>
+    </footer>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
